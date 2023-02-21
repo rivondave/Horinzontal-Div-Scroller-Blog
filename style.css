@@ -1,0 +1,328 @@
+/* TREND */
+.trend{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .trend p.new{
+    text-align: center;
+    display: none;
+  }
+  .trend p.item{
+    cursor: pointer;
+  }
+  .trend h1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .trend img{
+    width: 340px;
+    height: 340px;
+}
+.product{
+    --spacer:1rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: -1%;
+    grid-auto-columns: 18%;
+    padding: 0 10px 0 10px;
+    overflow-x: auto;
+    overscroll-behavior-inline:contain ;
+}
+
+.item {
+    display: grid;
+    grid-template-rows: min-content;
+}
+
+@media(max-width:1950px){
+    .product{
+        gap: 1%;
+    }
+}
+
+@media(max-width:1870px){
+    .product{
+        gap: 2%;
+    }
+}
+
+@media(max-width:1780px){
+    .product{
+        gap: 3%;
+    }
+}
+
+@media(max-width:1690px){
+    .product{
+        gap: 4%;
+    }
+}
+
+@media(max-width:1620px){
+    .product{
+        gap: 5%;
+    }
+}
+
+@media(max-width:1550px){
+    .product{
+        gap: 6%;
+    }
+}
+
+@media(max-width:1480px){
+    .product{
+        gap: 7%;
+    }
+}
+
+@media(max-width:1420px){
+    .product{
+        gap: 8%;
+    }
+}
+
+@media(max-width:1370px){
+    .product{
+        gap: 9%;
+    }
+}
+
+@media(max-width:1310px){
+    .product{
+        gap: 10%;
+    }
+}
+
+@media(max-width:1270px){
+    .product{
+        gap: 11%;
+    }
+}
+
+@media(max-width:1220px){
+    .product{
+        gap: 12%;
+    }
+}
+
+@media(max-width:1190px){
+    .product{
+        gap: 13.5%;
+    }
+}
+
+@media(max-width:1150px){
+    .product{
+        gap: 11%;
+    }
+    .trend img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width:1100px){
+    .trend img{
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media(max-width:1050px){
+    .product{
+        gap: 9%;
+    }
+    .trend img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media(max-width:1000px){
+    .trend img{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media(max-width:920px){
+    .product{
+        gap: 10%;
+    }
+    .trend img{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media(max-width:880px){
+    .product{
+        gap: 11%;
+    }
+}
+
+@media(max-width:850px){
+    .product{
+        gap: 13%;
+    }
+}
+
+@media(max-width:800px){
+    .product{
+        gap: 13%;
+    }
+    .trend img{
+        width: 210px;
+        height: 210px;
+    }
+}
+
+@media(max-width:730px){
+    .product{
+        gap: 15%;
+    }
+}
+
+@media(max-width:690px){
+    .product{
+        grid-auto-columns: 23%;
+        gap: 15%;
+    }
+    .trend img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media(max-width:630px){
+    .product{
+        grid-auto-columns: 13%;
+        gap: 19%;
+    }
+    .trend img{
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media(max-width:580px){
+    .product{
+        grid-auto-columns: 13%;
+        gap: 20%;
+    }
+}
+
+@media(max-width:560px){
+    .product{
+        grid-auto-columns: 20%;
+        gap: 12%;
+    }
+    .trend img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media(max-width:530px){
+    .product{
+        gap: 13%;
+    }
+}
+
+@media(max-width:500px){
+    .product{
+        gap: 14%;
+    }
+}
+@media(max-width:490px){
+    .product{
+        gap: 15%;
+    }
+}
+@media(max-width:470px){
+    .product{
+        gap: 16%;
+    }
+}
+@media(max-width:460px){
+    .product{
+        gap: 17.5%;
+    }
+}
+
+@media(max-width:445px){
+    .product{
+        gap: 19%;
+    }
+}
+
+@media(max-width:430px){
+    .product{
+        gap: 20%;
+    }
+}
+
+@media(max-width:415px){
+    .product{
+        gap: 22.5%;
+    }
+}
+
+@media(max-width:400px){
+    .product{
+        gap: 24.5%;
+    }
+}
+
+@media(max-width:385px){
+    .product{
+        gap: 26%;
+    }
+}
+
+@media(max-width:370px){
+    .product{
+        gap: 27.5%;
+    }
+}
+
+@media(max-width:360px){
+    .product{
+        gap: 29%;
+    }
+}
+
+@media(max-width:350px){
+    .product{
+        gap: 32%;
+    }
+}
+
+@media(max-width:330px){
+    .product{
+        gap: 35%;
+    }
+}
+
+@media(max-width:315px){
+    .product{
+        gap: 40%;
+    }
+}
+
+@media(max-width:300px){
+    .product{
+        gap: 42%;
+    }
+}
+
+@media(max-width:290px){
+    .product{
+        gap: 45%;
+    }
+}
